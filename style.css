@@ -1,0 +1,77 @@
+.circle {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.uncolored{
+    background-color:  #bbb;;
+}
+
+.colored {
+    background-color: black;
+}
+
+
+#target_div{
+    display: flex;
+}
+
+
+.slider_container_div {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: 20px 1fr;
+    grid-template-columns: 1fr 6fr 1fr; 
+}
+
+.left_arrow_container{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+.left_arrow_btn{
+    width: 100px;
+    height: 100px;
+}*/
+
+.right_arrow_container{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+.right_arrow_div{
+  
+}*/
+
+.circles_container{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image_container{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display:flex;
+}
+
+
+.slider_img{
+    max-width: 100%;
+    max-height: 100%;
+}
